@@ -1,0 +1,16 @@
+@use "../utilities/variables";
+/*The big three*/
+.big{
+    margin-left: 20%;
+    margin-top: 90px;
+    & h1{
+        font-size: 50px;
+        font-weight: 700;
+    &:nth-child(2){
+        color: variables.$color-primario;
+    }
+    }
+    & p{
+        width: 70%;
+    } 
+}

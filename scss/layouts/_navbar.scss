@@ -1,0 +1,12 @@
+@use "../utilities/variables";
+
+header nav .nav-link{
+    font-size: 20px;
+    color: variables.$color-primario;
+}
+.navbar-brand img{
+    width: 120px;
+    height: auto;
+    margin-left: 6%;
+    margin-right: 100px;
+}

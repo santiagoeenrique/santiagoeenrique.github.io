@@ -1,0 +1,16 @@
+/*Splash brothers*/
+.splash{
+    margin-left: 20%;
+    margin-top: 50px;
+    & h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    & p{
+        width: 50%;
+        &:last-child{
+            width: 85%;
+            margin-top: 20px;
+        }
+    }
+}
